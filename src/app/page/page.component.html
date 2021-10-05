@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="elements">
+        <div class="launch-buttons">
+            <button mat-fab color="primary" (click)="startTimer()">Start</button>
+            <button mat-fab color="primary" (click)= "stopTimer()"> Stop</button>
+            <button mat-fab color="primary" (click)= "pause()">Wait</button>
+            <button mat-fab color="primary" (click)= "resetTimer()">Reset</button>
+        </div>
+        
+        <div class="text">
+            <span>{{timer | timeFormatter}}</span>
+        </div>
+        <hr width="400px">
+    </div>
+</div>

@@ -1,0 +1,40 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.elements {
+    width: 500px;
+    height: 400px;
+    background: linear-gradient(to top, #20002c, #cbb4d4);
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.elements hr {
+    margin-top: 60px;
+    border: none;
+    height: 7px;
+    border-top: 3px solid #8360d6;
+    border-bottom: 3px solid #8360d6;
+}
+
+.launch-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 80px;
+    justify-content: space-evenly;
+}
+.text {
+    margin-top: 70px;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
